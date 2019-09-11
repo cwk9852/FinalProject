@@ -7,6 +7,21 @@
 ### Summary / Overview
 QRx - Patient/Provider Interface. Developed over a ten day sprint by a team of four, QRx is a collaborative proof of concept for streamlining emergency medical provider access to patient information. QRx utilizes restful services to provide a single, dependable source for patient healthcare providers to access their patients' medication lists. QRx is designed with a patient-centric experience focus.
 
+### Technologies Used
+* Java, JDBC, mySQL
+* Java Persistance API
+* Spring Boot, Spring Data, Spring Rest, Spring Security
+* Angular/TS
+* Angular Material Component Library
+* Bootstrap Component Library
+* HTML5/CSS3/JS
+
+### Live Demo 
+http://cecilkitch.com:8080/QRx/
+
+### Entity Diagram
+![qrxdbERD](qrxdbERD.png)
+
 ### REST API Endpoints
 | Action |HTTP Verb| Resource URI                           | Action           |
 | -------|---------|----------------------------------------| -----------------|
@@ -64,18 +79,3 @@ QRx - Patient/Provider Interface. Developed over a ten day sprint by a team of f
 | UPDATE | PUT     | /api/patients/diagnosis/{did}/         | Update Diagnosis |
 | DELETE | DELETE  | /api/patients/diagnosis/{did}/         | Delete Diagnosis |
 |--------|---------|----------------------------------------|------------------|
-
-### Technologies Used
-* Java, JDBC, mySQL
-* Java Persistance API
-* Spring Boot, Spring Data, Spring Rest, Spring Security
-* Angular/TS
-* Angular Material Component Library
-* Bootstrap Component Library
-* HTML5/CSS3/JS
-
-### Live Demo 
-http://cecilkitch.com:8080/QRx/
-
-### Entity Diagram
-![qrxdbERD](qrxdbERD.png)
