@@ -1,9 +1,3 @@
-## Team Windy Daydreamer
-* Craig Dreiling - Scrum Master
-* Emily Lau - Team Sweeper
-* Miguel Marsiglia - Repo Owner
-* Cecil Kitch - DBA
-
 ### Summary / Overview
 Developed over a ten day sprint by a team of four, QRx is a collaborative proof of concept for streamlining emergency medical provider access to patient information. QRx utilizes restful services to provide a single, dependable source for patient healthcare providers to access their patients' medication lists. QRx is designed with a patient-centric focus.
 
